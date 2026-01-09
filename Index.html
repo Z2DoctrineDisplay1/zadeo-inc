@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zadeo Inc. — Decision Integrity & AI Governance Support</title>
+  <meta name="description" content="Zadeo Inc. provides AI-based decision integrity, system evaluation, and governance support for complex operational environments." />
+  <meta name="robots" content="index, follow" />
+  
+  <style>
+    :root {
+      --bg: #07090d;
+      --panel: rgba(255,255,255,0.05);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.70);
+      --line: rgba(255,255,255,0.15);
+      --accent: #b87333; /* copper */
+      --max: 1100px;
+    }
+  
+    * { box-sizing: border-box; }
+  
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(900px 500px at 15% 0%, rgba(184,115,51,.18), transparent 60%),
+        radial-gradient(900px 500px at 90% 10%, rgba(31,111,235,.14), transparent 55%),
+        linear-gradient(180deg, #05060a 0%, #07090d 100%);
+      background-attachment: fixed;
+    }
+  
+    header {
+      border-bottom: 1px solid var(--line);
+      background: rgba(7,9,13,0.75);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+  
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 24px 20px;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .company-name {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .contact-link {
+      font-size: 14px;
+      padding: 8px 16px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .contact-link:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      text-decoration: none;
+    }
+  
+    h1 {
+      font-size: clamp(36px, 5vw, 52px);
+      margin: 0 0 16px 0;
+      letter-spacing: 0.3px;
+      line-height: 1.1;
+      font-weight: 600;
+    }
+  
+    h2 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 28px;
+      letter-spacing: 0.2px;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    h3 {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text);
+    }
+  
+    p {
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 880px;
+      margin: 0 0 16px 0;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  
+    section {
+      padding: 48px 0;
+    }
+
+    section:first-of-type {
+      padding-top: 60px;
+    }
+  
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 32px;
+      transition: border-color 0.3s ease;
+    }
+  
+    .panel:hover {
+      border-color: var(--accent);
+    }
+  
+    .grid {
+      display: grid;
+      gap: 24px;
+      margin-top: 32px;
+    }
+  
+    @media (min-width: 800px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 60px;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .footer-links {
+      margin-top: 16px;
+    }
+  
+    .tag {
+      display: inline-block;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      margin-right: 8px;
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+      transition: all 0.2s ease;
+    }
+  
+    .tag:hover {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .intro-text {
+      font-size: 18px;
+      margin-bottom: 24px;
+    }
+
+    .highlight-panel {
+      background: linear-gradient(135deg, rgba(184,115,51,0.08), rgba(31,111,235,0.06));
+      border-color: rgba(184,115,51,0.3);
+    }
+  
+    a { 
+      color: var(--accent); 
+      text-decoration: none; 
+      transition: opacity 0.2s ease;
+    }
+    
+    a:hover { 
+      opacity: 0.8;
+      text-decoration: underline; 
+    }
+
+    .capabilities-intro {
+      font-size: 16px;
+      margin-bottom: 32px;
+      max-width: 800px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="header-content">
+      <div class="company-name">Zadeo Inc.</div>
+      <a href="mailto:zadeoink@gmail.com" class="contact-link">Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h1>Decision Integrity & AI Governance Support</h1>
+    <p class="intro-text">
+      We provide advanced artificial intelligence–based decision integrity,
+      system evaluation, and governance support services for complex operational
+      environments.
+    </p>
+    <p>
+      Our work focuses on analyzing, monitoring, and validating how AI-enabled
+      systems process information, make decisions, and interact with human operators
+      across security-sensitive and mission-critical domains.
+    </p>
+  </section>
+
+  <section>
+    <h2>Core Capabilities</h2>
+    <p class="capabilities-intro">
+      We specialize in sensor data processing and fusion, edge-deployed computing 
+      architectures, and next-generation AI systems for planning, reasoning, and 
+      decision-making under uncertainty.
+    </p>
+    
+    <div class="grid">
+      <div class="panel">
+        <h3>System Evaluation & Risk Detection</h3>
+        <p>
+          Identification of reliability risks, safety gaps, and governance drift
+          within automated and semi-autonomous systems, including early detection
+          of control degradation and decision-risk accumulation.
+        </p>
+      </div>
+
+      <div class="panel">
+        <h3>Decision Integrity Analysis</h3>
+        <p>
+          Assessment of how decisions propagate across human, machine, and hybrid
+          workflows, with emphasis on traceability, consistency, and auditability.
+        </p>
+      </div>
+
+      <div class="panel">
+        <h3>Edge & Operational AI Review</h3>
+        <p>
+          Evaluation of sensor fusion, edge-deployed computing architectures, and
+          planning systems operating under uncertainty.
+        </p>
+      </div>
+
+      <div class="panel">
+        <h3>Governance Support</h3>
+        <p>
+          Advisory and analytical support for organizations operating AI systems
+          in regulated, high-stakes, or security-critical environments.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Beat Map™ Linguistic Execution Technology</h2>
+    <div class="panel highlight-panel">
+      <p>
+        Zadeo Inc. develops and deploys <strong>Beat Map™</strong> linguistic execution technology,
+        a structured language-to-action translation layer that supports the translation of 
+        human-authored directives into measurable execution cues.
+      </p>
+      <p>
+        Beat Map technology encodes timing, emphasis, sequencing, and priority signals
+        directly into language artifacts, enabling consistent interpretation across
+        AI systems, human operators, and hybrid workflows. This capability supports 
+        precise instruction delivery, auditability, and reduced ambiguity in high-stakes 
+        operational contexts.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Delivery Model</h2>
+    <p>
+      Services are delivered as deployable software components, analytical frameworks,
+      and advisory support that integrate with existing infrastructure without operational 
+      disruption. Solutions are designed to operate at the edge or within constrained 
+      environments where latency, security, interpretability, and accountability are critical.
+    </p>
+    <p style="margin-top: 24px;">
+      All technologies are proprietary and commercially available, with intellectual 
+      property owned by the company. Our work supports government and enterprise customers 
+      seeking secure, auditable, and trustworthy AI and decision-support systems.
+    </p>
+
+    <div style="margin-top: 32px;">
+      <span class="tag">AI Governance</span>
+      <span class="tag">Decision Integrity</span>
+      <span class="tag">System Evaluation</span>
+      <span class="tag">Operational AI</span>
+      <span class="tag">Edge Computing</span>
+      <span class="tag">Auditability</span>
+      <span class="tag">Security-Critical Systems</span>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Zadeo Inc.</strong> — Norfolk, Virginia</p>
+    <div class="footer-links">
+      <p>Inquiries: <a href="mailto:zadeoink@gmail.com">zadeoink@gmail.com</a></p>
+    </div>
+    <p style="margin-top: 24px; font-size: 13px;">© 2024 Zadeo Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
